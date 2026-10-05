@@ -1,0 +1,25 @@
+{
+  "name": "apex-pos-promo-video",
+  "version": "1.0.0",
+  "description": "30-second promotional video for Apex POS software",
+  "scripts": {
+    "start": "remotion studio",
+    "build": "remotion render ApexVideo out/video.mp4",
+    "preview": "remotion preview"
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.236",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "remotion": "^4.0.236"
+  },
+  "devDependencies": {
+    "@remotion/eslint-config": "^4.0.236",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "@types/web": "^0.0.147",
+    "eslint": "^8.57.0",
+    "prettier": "^3.2.5",
+    "typescript": "^5.3.3"
+  }
+}
